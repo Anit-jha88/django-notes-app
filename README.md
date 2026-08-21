@@ -16,8 +16,12 @@ git clone https://github.com/Anit-jha88/django-notes-app.git
 ```
 docker build -t notes-app .
 ```
+3. create a network
+```
+docker network create app-network
+```
 
-3. Run the app
+4. Run the app
 ```
 docker run -d -p 8000:8000 notes-app:latest
 ```
