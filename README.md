@@ -21,9 +21,14 @@ docker build -t notes-app .
 docker network create notes-app-nw
 ```
 
-4. Run the app
+4. Create Vloume for Mysql 
 ```
-docker run -d -p 8000:8000 notes-app:latest
+docker volume create mysql-data
+```
+
+5. Run  docker-compose
+```
+docker compose up
 ```
 
 ## Nginx
