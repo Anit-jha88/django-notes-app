@@ -31,9 +31,9 @@ docker volume create mysql-data
 docker compose up
 ```
 
-5. Run  app
+6. Run  app
 ```
-(http://3.219.29.110:80/)
+http://3.219.29.110:80/
 ```
 
 ## Nginx
