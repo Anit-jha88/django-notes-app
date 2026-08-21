@@ -1,4 +1,4 @@
-# Simple Notes App for DEvops Community
+# Simple Notes App for Devops Community
 This is a simple notes app built with React and Django.
 
 ## Requirements
